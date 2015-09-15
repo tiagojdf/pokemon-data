@@ -25,3 +25,11 @@ describe 'pokemon-data', ->
     it 'should be contained in contain all', ->
       randomItem = pokemonData.random()
       expect(pokemonData.all).to.include randomItem
+
+    it 'should work with getRandom', ->
+      randomItem = pokemonData.getRandom()
+      expect(pokemonData.all).to.include randomItem
+
+  describe 'getById', ->
+    it 'should return pikachu for id 25', ->
+      expect(pokemonData.getById(25)).to.equal 'Pikachu'

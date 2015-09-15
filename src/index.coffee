@@ -4,4 +4,8 @@ pokemonData = require './pokemon-data.json'
 
 module.exports =
   all: pokemonData
-  random: uniqueRandomArray(pokemonData)
+  getRandom: uniqueRandomArray(pokemonData)
+  random: -> # deprecated
+    this.getRandom()
+  getById: (id) ->
+    this.all[id - 1]
