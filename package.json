@@ -1,6 +1,6 @@
 {
   "name": "pokemon-data",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "A library that contains the name of all pokemons. A great way to name your fixtures, make a pokedex, or just catch' em all.",
   "main": "lib/index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "pokemon",
     "fixture",
-    "data"
+    "data",
+    "react"
   ],
   "author": "Tiago J. D. Ferreira <tiagojdferreira@gmail.com> (http://tiagojdferreira.github.io/)",
   "license": "MIT",
